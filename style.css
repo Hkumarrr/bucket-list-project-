@@ -1,0 +1,54 @@
+body
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+   text-decoration: underline;
+
+}
+
+/* Style the unordered list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* Style the list items */
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #bb2020;
+    border-radius: 50px;
+}
+
+/* Style the checkmark icon (optional) */
+li::before {
+    content: "✓"; /* Or any other icon */
+    color: rgb(230, 193, 5);
+    margin-right: 5px;
+
+    
+}
+
+
+li {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.2); 
+    /* Creates an inner and outer shadow */
+}
+
+@media screen and (max-width: 600px) {
+    /* Styles for smaller screens */
+    body {
+        padding: 10px;
+    }
+   
+    
+}
